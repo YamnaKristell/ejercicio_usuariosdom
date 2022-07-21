@@ -1,0 +1,101 @@
+.programa {
+    width: 70rem;
+    height: 50rem;
+    margin-top: 10rem;
+    background: #C5C5C5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.programa_cj-titulo {
+    width: 40rem;
+    height: 10rem;
+    left:100px;
+    top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #485B73;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+
+    margin-top: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.programa_cj-titulo span {
+    font-size: 4.5rem;
+    font-weight: 600;
+    font-weight: bold;
+    background-color: transparent;
+    color: #ECECEC;
+}
+
+.botones {
+    width: 50rem;
+    
+    display: flex;
+    justify-content:space-around;
+}
+
+.programa_bt {
+    width: 17rem;
+    height: 6.5rem;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ECECEC;
+    font-size: 25px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #253140;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5rem;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.programa_bt:hover {
+    background-color: #5584AC;
+    
+}
+.ocultar {
+    display: none;
+}
+.bt_activado {
+    background-color: gray;
+}
+
+/* Botón ver */
+
+#bt_user {
+    width: 17rem;
+    height: 6rem;
+    margin-top: 4rem;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #364659;
+    color: #ECECEC;
+    font-size: 25px;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bt_user:hover {
+    background-color: #FF6768;
+}
